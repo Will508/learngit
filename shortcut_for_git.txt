@@ -1,13 +1,15 @@
 git add filename
 git commit -m "..."
 git rm filename
-git checkout -- filename
+git checkout -- filename //撤销工作区的更改
 
 git status
 git diff
 
-git log
-git reflog
+git log //查看版本历史记录
+git reflog //记录每次的变更版本的命令及版号
+git reset --hard HEAD^ //回退到上一个版本或指定版本(将HEAD^变为所需版本版号)
+git reset HEAD filename //撤销暂存区的修改
 
 git remote -v
 git push origin main
