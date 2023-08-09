@@ -1,0 +1,13 @@
+git add filename
+git commit -m "..."
+git rm filename
+git checkout -- filename
+
+git status
+git diff
+
+git log
+git reflog
+
+git remote -v
+git push origin main
