@@ -22,3 +22,4 @@ git switch -c branchname //创建并切换分支
 git checkout -b branchname //创建并切换分支
 git merge branchname //合并分支到当前分支
 git branch -d name //删除分支
+
