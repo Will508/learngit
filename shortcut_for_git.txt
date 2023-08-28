@@ -1,4 +1,5 @@
 git add filename
+git add -A //添加所有变更的文件
 git commit -m "..."
 git rm filename
 git checkout -- filename //撤销工作区的更改
